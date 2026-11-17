@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 本地数据库(脚本生成的,不要提交)
+*.db
+*.sqlite
+*.sqlite3
+
+# 密钥与本地配置
+.env
+*.key
+*.pem
+config.local.*
+
+# 编辑器
+.vscode/
+.idea/
